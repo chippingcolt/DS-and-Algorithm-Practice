@@ -15,3 +15,10 @@ Each section will have the following:
 - Abstraction will be implemented
 - Java's native implementations of data structures
 - Popular Java standards
+
+Github Flow:
+Branch Names - task-["ds" or "algo"]-#
+Pull request for merges in dev
+Dev is merged in master
+
+* I understand that a Github "flow" may not be necessary, but it displays the professional experience I have with Github.
