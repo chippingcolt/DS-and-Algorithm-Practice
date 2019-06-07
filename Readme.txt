@@ -4,7 +4,7 @@ Algorithm directory showcases examples of popular/practical algorithms implement
 Data Structure directory showcases examples of time complexity among different 
 data structures as well as building them from scratch.
 
-Overall, this repository is for practicing algorithms and data structure efficiency in Java and coding standards.
+Overall, this repository is for practicing algorithms and data structure efficiency in Java with common coding standards.
 
 Enjoy :)
 
