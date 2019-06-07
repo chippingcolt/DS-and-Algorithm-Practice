@@ -1,0 +1,14 @@
+Java array is an object which contains elements of a similar data type.
+Must store a fixed set of elements.
+
+Advantages: 
+-> Code Optimization: Retrieve or sort the data efficiently
+-> Random Access: Get any data at an index position
+
+Disadvantages:
+-> Limit in Size: Fixed size of elements in the array which means during runtime 
+it won't grow it's size.
+
+Types:
+-> Single Dimensional array
+-> Multidimensional array
