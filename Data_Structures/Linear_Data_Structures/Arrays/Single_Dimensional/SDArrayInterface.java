@@ -6,6 +6,10 @@ interface SDArrayInterface {
     }
 
     default int[] createArray(){
+        //An array can also be created using the style
+        // int[] newArr = {1,2,4,5,6};
+        //this style automatically dictates size according to inputed data
+
         //new random number object
         Random randomObject = new Random();
 
@@ -22,4 +26,14 @@ interface SDArrayInterface {
 
         return newExample;
     }
+    
+    default void printArray(int[] arr){
+        for(int i = 0; i < arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+    }
+    
+    public int[] deleteElementOfArray(int[] arr, int index, boolean byIndex);
+
+    public int[] insertElementOfArray(int[] arr, int numberToAdd, int indexAt);
 }
